@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Dosis:wght@200..800&family=Splash&family=Srisakdi:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  font-size: 16px
+}
+
+@layer base {
+  .max-width {
+    @apply max-w-[1440px] mx-auto;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  
+  .flex-between {
+    @apply flex justify-between items-center;
+  }
+  
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.animate-slideLeft{
+  animation: moveLeft 6s linear infinite;
+  -webkit-animation: moveLeft 6s linear infinite;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(20%);
+  }
+  30% {
+    transform: translateX(0%); /* Nếu bạn muốn dừng ở trạng thái cuối cùng trong 3s */
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+
