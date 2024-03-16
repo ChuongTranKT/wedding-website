@@ -13,10 +13,12 @@ const Hero = () => {
   const swiperRef = useRef<any>(null)
   const handlePrevSlide = () => {
     swiperRef.current.slidePrev()
+    addAnimate()
   }
 
   const handleNextSlide = () => {
     swiperRef.current.slideNext()
+    addAnimate()
   }
 
   useEffect(() => {
@@ -25,11 +27,15 @@ const Hero = () => {
   }, [currentSlide])
 
   const handleSlideChange = (swiper: any) => {
+    addAnimate()
+    setCurrentSlide(swiper.realIndex)
+  }
+
+  const addAnimate = () => {
     const element = document.querySelector('.animate-slideLeft')
     if (element) {
       element.classList.remove('animate-slideLeft')
     }
-    setCurrentSlide(swiper.realIndex)
   }
 
   return (

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Dosis:wght@200..800&family=Splash&family=Srisakdi:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Dosis:wght@200..800&family=Ephesis&family=Splash&family=Srisakdi:wght@700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -36,8 +37,8 @@ body {
 }
 
 .animate-slideLeft{
-  animation: moveLeft 6s linear infinite;
-  -webkit-animation: moveLeft 6s linear infinite;
+  animation: moveLeft 6s linear ;
+  -webkit-animation: moveLeft 6s linear ;
 }
 
 @keyframes moveLeft {
@@ -51,6 +52,26 @@ body {
     transform: translateX(0%);
   }
 }
+
+.animation-scale {
+  animation:  scale 1s linear infinite;
+  -webkit-animation:  scale 1s linear infinite;
+}
+
+@keyframes scale {
+  0% {
+    scale: 1.1;
+  }
+  50%{
+    scale:1.25;
+  }
+  100% {
+    scale:1.1;
+  }
+}
+
+
+
 
 
 
