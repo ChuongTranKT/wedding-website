@@ -8,15 +8,15 @@ const Navbar = () => {
   return (
     <section id="navbar" className="flex-between fixed top-[0px] z-50 h-[80px] w-full">
       <div className=" absolute top-[5px] z-20 h-[80px] w-full bg-zinc-100 opacity-30"></div>
-      <div className="z-40 mt-[5px] grid h-[80px] w-full grid-cols-3 place-content-center gap-16 px-6 py-16">
+      <div className="z-40 mt-[5px] grid h-[80px] w-full grid-cols-3 place-content-center gap-0 px-6 py-16">
         <div className="flex-center order-2 col-span-2 place-content-start space-x-2 xl:order-1 xl:col-span-1">
-          <span className="font-Ephesis text-3xl font-bold text-[#fff]">Chương</span>
+          <span className="font-Ephesis text-2xl font-bold text-[#fff] xl:text-3xl">Chương</span>
           <div>
             <Image src={'/heart-fill.png'} width={24} height={24} alt="heart icon"></Image>
           </div>
-          <span className="font-Ephesis text-3xl font-bold text-[#fff]">Hiền</span>
+          <span className="font-Ephesis text-2xl font-bold text-[#fff] xl:text-3xl">Hiền</span>
         </div>
-        <div className="block xl:hidden" onClick={() => setIsOpenMenu(true)}>
+        <div className="col-span-1 block xl:hidden" onClick={() => setIsOpenMenu(true)}>
           <Image src={'/icon_menu.png'} width={32} height={32} alt="menu"></Image>
         </div>
         <div

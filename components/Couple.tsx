@@ -37,7 +37,7 @@ const CoupleSection = () => {
   const [isHoverImageBride, setIsHoverImageBride] = useState(false)
 
   return (
-    <section className="relative flex flex-col items-center justify-center gap-12 px-6">
+    <section id="couple" className="relative flex flex-col items-center justify-center gap-12 px-6">
       <TitleSection title="Cô dâu & Chú rể" />
       <div className=" relative flex flex-col items-center justify-center gap-4 px-0 xl:flex-row  xl:gap-8">
         <div
@@ -88,44 +88,44 @@ const CoupleSection = () => {
           tốt đẹp mà bạn đã dành cho chúng tôi!
         </span>
       </div>
-      <div>
-        <p className="font-Ephesis text-[30px] leading-relaxed tracking-widest xl:text-[54px]">
-          Văn Chương & Thúy Hiền
-        </p>
+      <div className="flex-center gap-3 xl:gap-9">
+        <p className="font-Ephesis text-[32px] leading-relaxed  xl:text-[54px]">Văn Chương</p>
+        <p className="font-Ephesis text-[32px] leading-relaxed  xl:text-[54px]">&</p>
+        <p className="font-Ephesis text-[32px] leading-relaxed  xl:text-[54px]">Thúy Hiền</p>
       </div>
-      <div className="flex-center gap-9 xl:gap-40">
+      <div className="flex-center gap-4 xl:gap-40">
         <div>
           <div className="flex items-center justify-start gap-1">
-            <p className="text-[16px] tracking-wide  text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] tracking-wide  text-gray-900 opacity-60 xl:text-[20px]">
               Con ông:
             </p>
-            <p className="text-[16px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
               Trần Văn Hiền
             </p>
           </div>
           <div className="flex items-center justify-start gap-1">
-            <p className="text-[16px] tracking-wide text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] tracking-wide text-gray-900 opacity-60 xl:text-[20px]">
               Con bà:
             </p>
-            <p className="text-[16px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
               Nguyễn Thị Ánh
             </p>
           </div>
         </div>
         <div>
           <div className="flex items-center justify-start gap-1">
-            <p className="text-[16px] tracking-wide  text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] tracking-wide  text-gray-900 opacity-60 xl:text-[20px]">
               Con ông:
             </p>
-            <p className="text-[16px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
               Nguyễn Văn Nghĩa
             </p>
           </div>
           <div className="flex items-center justify-start gap-1">
-            <p className="text-[16px] tracking-wide text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] tracking-wide text-gray-900 opacity-60 xl:text-[20px]">
               Con bà:
             </p>
-            <p className="text-[16px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
+            <p className="text-[14px] font-bold text-gray-900 opacity-60 xl:text-[20px]">
               Ung Thị Trang
             </p>
           </div>

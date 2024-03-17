@@ -24,7 +24,7 @@ const SnowfallEffect = () => {
         pointerEvents: 'none',
       }}
     >
-      <Snowfall snowflakeCount={50} images={imageList} radius={[5, 20]} />
+      <Snowfall snowflakeCount={30} images={imageList} radius={[5, 20]} />
     </div>
   )
 }

@@ -15,7 +15,7 @@ const AudioSection = () => {
     setIsPlaying(true)
   }
   return (
-    <div className="sticky bottom-[80px] z-[100]">
+    <div className="sticky  bottom-[80px] z-[100]">
       <audio controls ref={audioRef} loop className="hidden">
         <source src="/I-Do-911.mp3" type="audio/mpeg" />
       </audio>

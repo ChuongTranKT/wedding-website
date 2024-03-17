@@ -111,15 +111,27 @@ const Hero = () => {
               <p className="text-center text-[#fff] md:text-[30px]">{`23/09/2024`}</p>
             </div>
           </div>
-          <div className=" absolute left-0 top-0  h-[1px] w-[30%] bg-[#fff] md:w-[67%]"></div>
-          <div className="absolute bottom-0  right-0  h-[1px] w-[30%] bg-[#fff] md:w-[67%]"></div>
-          <div className="absolute bottom-0 right-0 h-[41%] w-[1px] bg-[#fff] md:h-[70%]"></div>
-          <div className="absolute left-0 top-0 h-[41%] w-[1px] bg-[#fff] md:h-[70%]"></div>
-          <div className=" absolute right-1 top-[-15px] w-[130px] md:w-[150px]">
-            <Image src={'/shape3.png'} width={150} height={50} alt="image"></Image>
+          <div className=" absolute left-0 top-0  h-[1px] w-[60%] bg-[#fff] md:w-[70%]"></div>
+          <div className="absolute bottom-0  right-0  h-[1px] w-[60%] bg-[#fff] md:w-[70%]"></div>
+          <div className="absolute bottom-0 right-0 h-[60%] w-[1px] bg-[#fff] md:h-[70%]"></div>
+          <div className="absolute left-0 top-0 h-[60%] w-[1px] bg-[#fff] md:h-[70%]"></div>
+          <div className=" absolute right-[-28px] top-[-15px] w-[130px] md:right-1 md:w-[150px]">
+            <Image
+              src={'/shape3.png'}
+              width={100}
+              height={50}
+              alt="image"
+              className="md:w-[150px]"
+            ></Image>
           </div>
           <div className=" absolute bottom-[-15px] left-1  w-[130px] md:w-[150px]">
-            <Image src={'/shape4.png'} width={150} height={50} alt="image"></Image>
+            <Image
+              src={'/shape4.png'}
+              width={100}
+              height={50}
+              alt="image"
+              className="md:w-[150px]"
+            ></Image>
           </div>
         </div>
       </div>

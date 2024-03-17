@@ -1,5 +1,5 @@
-export const calculateTimeRemaining = () => {
-  const endTime: any = new Date('2024-09-23T00:00:00')
+export const calculateTimeRemaining = (endDateTime: string) => {
+  const endTime: any = new Date(endDateTime)
   const currentTime: any = new Date()
   const timeDifferent = endTime - currentTime
 

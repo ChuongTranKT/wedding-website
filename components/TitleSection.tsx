@@ -7,12 +7,20 @@ type TitleSectionProps = {
 
 const TitleSection = ({ title }: TitleSectionProps) => {
   return (
-    <div className="flex-center relative flex-col gap-2">
+    <div className="flex-center relative flex-col gap-4">
       <div>
-        <Image src={'/section-title.png'} width={200} height={60} alt="section title"></Image>
+        <Image
+          src={'/section-title.png'}
+          width={200}
+          height={60}
+          alt="section title"
+          className="xl:w-[250px]"
+        ></Image>
       </div>
       <div>
-        <p className="font-Ephesis text-4xl font-bold tracking-wider text-[#747BA9]">{title}</p>
+        <p className="font-Splash text-4xl  capitalize tracking-wider text-[#747BA9] xl:text-[44px] ">
+          {title}
+        </p>
       </div>
       <div>
         <Image

@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import SnowfallEffect from '@/components/SnowfallEffect'
 import Time from '@/components/Time'
+import WeddingEvent from '@/components/WeddingEvent'
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <CoupleSection />
-      <Time />
+      <WeddingEvent />
       <AudioSection />
     </main>
   )
