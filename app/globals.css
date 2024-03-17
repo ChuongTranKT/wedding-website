@@ -70,7 +70,61 @@ body {
   }
 }
 
+.animation-width-transition-1 {
+  animation: width-transition 1s ease-out  ;
+  -webkit-animation: width-transition 1s ease-out  ;
+}
 
+@keyframes width-transition {
+  0% {
+    width: 10%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+.animation-width-transition-2 {
+  animation: width-transition-2 1s ease-out  ;
+  -webkit-animation: width-transition-2 1s ease-out  ;
+}
+
+@keyframes width-transition-2 {
+  0% {
+    width: 10%;
+  }
+  100%{
+    width: 96%;
+  }
+}
+
+.animation-height-transition-1 {
+  animation: height-transition-1 1s ease-out  ;
+  -webkit-animation: height-transition-1 1s ease-out  ;
+}
+
+@keyframes height-transition-1 {
+  0% {
+    height: 10%;
+  }
+  100%{
+    height: 94%;
+  }
+}
+
+.animation-height-transition-2 {
+  animation: height-transition-2 1s ease-out  ;
+  -webkit-animation: height-transition-2 1s ease-out  ;
+}
+
+@keyframes height-transition-2 {
+  0% {
+    height: 10%;
+  }
+  100%{
+    height: 88%;
+  }
+}
 
 
 

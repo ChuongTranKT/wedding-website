@@ -1,4 +1,5 @@
 import AudioSection from '@/components/Audio'
+import CoupleSection from '@/components/Couple'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import SnowfallEffect from '@/components/SnowfallEffect'
@@ -10,6 +11,7 @@ export default function Home() {
       <SnowfallEffect />
       <Navbar />
       <Hero />
+      <CoupleSection />
       <Time />
       <AudioSection />
     </main>

@@ -17,6 +17,7 @@ const config: Config = {
       Splash: ['Splash', 'cursive'],
       Bonheur: ['Bonheur', 'cursive'],
       Royale: ['Royale', 'cursive'],
+      Ephesis: ['Ephesis', 'cursive'],
     },
     // colors: {
     //   fuchsia: {

@@ -94,7 +94,7 @@ const Hero = () => {
         <div className="flex-center relative z-30 mx-auto my-auto h-[200px] max-w-[885px] px-[20px] py-[40px] md:h-[355px] xl:px-[70px] xl:py-[80px]">
           <div className="flex flex-col items-center justify-center space-y-8">
             <div className="flex-center animate-slideLeft mt-3 space-x-4" id="person-name">
-              <span className="font-Splash text-2xl text-[#fff] md:text-[65px]">Văn A</span>
+              <span className="font-Splash text-2xl text-[#fff] md:text-[65px]">Văn Chương</span>
               <div className="h-[24px] w-[24px] md:h-[38px] md:w-[38px]">
                 <Image
                   src={'/ic-heart.png'}
@@ -104,7 +104,7 @@ const Hero = () => {
                   className="sepia-100 brightness-0 hue-rotate-0 invert saturate-0 filter"
                 ></Image>
               </div>
-              <span className="font-Splash text-2xl text-[#fff] md:text-[65px]">Thi B</span>
+              <span className="font-Splash text-2xl text-[#fff] md:text-[65px]">Thúy Hiền</span>
             </div>
             <div className="">
               <p className="text-center text-[#fff] md:text-[30px]">{`We're Getting Married!`}</p>
