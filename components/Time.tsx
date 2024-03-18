@@ -25,7 +25,7 @@ const Time = ({ endTime }: TimePropsType) => {
       <div className="flex-center flex-wrap gap-4">
         <div className="flex-center relative">
           <Image
-            src={'/clock-bg.png'}
+            src={'/icons/clock-bg.png'}
             alt="clock"
             width={100}
             height={100}
@@ -40,7 +40,7 @@ const Time = ({ endTime }: TimePropsType) => {
         </div>
         <div className="flex-center relative">
           <Image
-            src={'/clock-bg.png'}
+            src={'/icons/clock-bg.png'}
             alt="clock"
             width={100}
             height={100}
@@ -55,7 +55,7 @@ const Time = ({ endTime }: TimePropsType) => {
         </div>
         <div className="flex-center relative">
           <Image
-            src={'/clock-bg.png'}
+            src={'/icons/clock-bg.png'}
             alt="clock"
             width={100}
             height={100}
@@ -70,7 +70,7 @@ const Time = ({ endTime }: TimePropsType) => {
         </div>
         <div className="flex-center relative">
           <Image
-            src={'/clock-bg.png'}
+            src={'/icons/clock-bg.png'}
             alt="clock"
             width={100}
             height={100}

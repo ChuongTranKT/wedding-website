@@ -10,7 +10,7 @@ const TitleSection = ({ title }: TitleSectionProps) => {
     <div className="flex-center relative flex-col gap-4">
       <div>
         <Image
-          src={'/section-title.png'}
+          src={'/icons/section-title.png'}
           width={200}
           height={60}
           alt="section title"
@@ -24,7 +24,7 @@ const TitleSection = ({ title }: TitleSectionProps) => {
       </div>
       <div className="relative flex flex-col items-center justify-center">
         <Image
-          src={'/line.svg'}
+          src={'/icons/line.svg'}
           alt="line"
           width={150}
           height={30}
@@ -32,7 +32,7 @@ const TitleSection = ({ title }: TitleSectionProps) => {
         ></Image>
         <div className="absolute top-[-60px]">
           <Image
-            src={'/giphy.gif'}
+            src={'/icons/giphy.gif'}
             alt="line"
             width={100}
             height={100}

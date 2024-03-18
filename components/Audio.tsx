@@ -41,7 +41,7 @@ const AudioSection = () => {
         >
           <div className="flex-center">
             <div className="absolute z-20">
-              <Image src={'/sound.png'} alt="sound" width={38} height={38}></Image>
+              <Image src={'/icons/sound.png'} alt="sound" width={38} height={38}></Image>
             </div>
             <div className="animation-scale  h-[38px] w-[38px]  rounded-full bg-[#FD3F5D] opacity-20 "></div>
           </div>
@@ -53,7 +53,7 @@ const AudioSection = () => {
         >
           <div className="flex-center">
             <div className="absolute z-20">
-              <Image src={'/silent.png'} alt="sound" width={38} height={38}></Image>
+              <Image src={'/icons/silent.png'} alt="sound" width={38} height={38}></Image>
             </div>
             <div
               ref={playAudio}

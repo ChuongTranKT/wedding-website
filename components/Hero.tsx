@@ -78,13 +78,13 @@ const Hero = () => {
         <div className="flex items-center justify-between md:flex md:justify-between md:gap-4">
           <Button
             type="button"
-            icon="/arrow-left.svg"
+            icon="/icons/arrow-left.svg"
             variant="bg-[#000] opacity-20 w-16 h-16 border border-2 border-[#fff]"
             handleClick={handlePrevSlide}
           />
           <Button
             type="button"
-            icon="/arrow-right.svg"
+            icon="/icons/arrow-right.svg"
             variant="bg-[#000] opacity-20 w-16 h-16 border border-2 border-[#fff]"
             handleClick={handleNextSlide}
           />
@@ -97,7 +97,7 @@ const Hero = () => {
               <span className="font-Splash text-2xl text-[#fff] md:text-[65px]">Văn Chương</span>
               <div className="h-[24px] w-[24px] md:h-[38px] md:w-[38px]">
                 <Image
-                  src={'/ic-heart.png'}
+                  src={'/icons/ic-heart.png'}
                   alt="icon heart"
                   width={38}
                   height={38}
@@ -117,7 +117,7 @@ const Hero = () => {
           <div className="absolute left-0 top-0 h-[60%] w-[1px] bg-[#fff] md:h-[70%]"></div>
           <div className=" absolute right-[-28px] top-[-15px] w-[130px] md:right-1 md:w-[150px]">
             <Image
-              src={'/shape3.png'}
+              src={'/icons/shape3.png'}
               width={100}
               height={50}
               alt="image"
@@ -126,7 +126,7 @@ const Hero = () => {
           </div>
           <div className=" absolute bottom-[-15px] left-1  w-[130px] md:w-[150px]">
             <Image
-              src={'/shape4.png'}
+              src={'/icons/shape4.png'}
               width={100}
               height={50}
               alt="image"

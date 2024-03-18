@@ -47,7 +47,12 @@ const CoupleSection = () => {
         >
           <div className='absolute left-[-180px] top-[180px] h-[300px] w-[300px] rotate-180 bg-[url("/flower-medium.svg")] bg-contain bg-right-top bg-no-repeat  xl:top-[310px]'></div>
           <div className=" relative h-[360px] w-[360px] p-10 xl:h-[456px] xl:w-[456px] ">
-            <Image src={'/image-1.jpg'} alt="groom" fill className=" object-cover"></Image>
+            <Image
+              src={'/wedding-images/image-1.jpg'}
+              alt="groom"
+              fill
+              className=" object-cover"
+            ></Image>
           </div>
           {isHoverImageGroom && <BoxTransition title_1="Trần Văn Chương" title_2="Út nam" />}
         </div>
@@ -58,7 +63,12 @@ const CoupleSection = () => {
         >
           <div className='absolute right-[20px] top-[211px] z-[-10]  h-[300px] w-[300px] rotate-[70deg] bg-[url("/flower-medium.svg")] bg-contain bg-right-top bg-no-repeat xl:right-[-173px] xl:top-[305px]  xl:block'></div>
           <div className=" relative h-[360px] w-[360px] p-10 xl:h-[456px] xl:w-[456px] ">
-            <Image src={'/image-2.jpg'} alt="groom" fill className=" object-cover"></Image>
+            <Image
+              src={'/wedding-images/image-2.jpg'}
+              alt="groom"
+              fill
+              className=" object-cover"
+            ></Image>
           </div>
           {isHoverImageBride && (
             <BoxTransition title_1="Nguyễn Thị Thúy Hiền" title_2="Trưởng nữ" />
@@ -67,7 +77,7 @@ const CoupleSection = () => {
         <div className="absolute bottom-[-50px] z-30 ">
           <div className="relative h-[100px] w-[100px] rounded-full bg-white ">
             <Image
-              src={'/wedding-chibi.png'}
+              src={'/icons/wedding-chibi.png'}
               alt="wedding"
               fill
               className="rounded-full object-contain "
