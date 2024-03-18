@@ -13,7 +13,7 @@ type CartEventPropsType = {
 
 const CartEvent = ({ title, endTime, image, time_title }: CartEventPropsType) => {
   return (
-    <div className="relative h-[600px] min-w-[340px] max-w-[450px] border-[2px] border-[#86a0b6] p-6  ">
+    <div className="relative h-[650px] min-w-[340px] max-w-[450px] border-[2px] border-[#86a0b6] p-6 md:h-[700px] xl:h-[600px]  ">
       <div>
         <div className="absolute right-[-10px] top-[-22px] bg-white p-2">
           <Image src={'/event-shape-1.png'} width={118} height={26} alt="event shape"></Image>
@@ -41,7 +41,7 @@ const CartEvent = ({ title, endTime, image, time_title }: CartEventPropsType) =>
           target="_blank"
         >
           <div className="flex-center items-end gap-2">
-            <Image src={'/map.png'} alt="map" width={32} height={32}></Image>
+            <Image src={'/map.gif'} alt="map" width={32} height={32}></Image>
             <p className="text-end font-bold text-[#848892] underline decoration-solid">
               Xem bản đồ
             </p>
@@ -59,26 +59,26 @@ const WeddingEvent = () => {
       <div className="grid grid-cols-1 gap-10 xl:grid-cols-2 xl:grid-rows-2">
         <CartEvent
           title="Hôn lễ tư gia nữ"
-          endTime="2024-09-23T00:00:00"
-          time_title="11:30 10/02/2023"
+          endTime="2024-09-11T08:30:00"
+          time_title="08:30 10/02/2023"
           image="/image-1.jpg"
         />
         <CartEvent
           title="Tiệc cưới tư gia nữ"
-          endTime="2024-09-23T00:00:00"
-          time_title="11:30 10/02/2023"
+          endTime="2024-09-11T11:00:00"
+          time_title="11:00 10/02/2023"
           image="/image-2.jpg"
         />
         <CartEvent
           title="Hôn lễ tư gia nam"
-          endTime="2024-09-23T00:00:00"
-          time_title="11:30 10/02/2023"
+          endTime="2024-09-23T08:00:00"
+          time_title="08:30 10/02/2023"
           image="/image-1.jpg"
         />
         <CartEvent
           title="Tiệc cưới tư gia nam"
-          endTime="2024-09-23T00:00:00"
-          time_title="11:30 10/02/2023"
+          endTime="2024-09-23T11:00:00"
+          time_title="11:00 10/02/2023"
           image="/image-2.jpg"
         />
       </div>

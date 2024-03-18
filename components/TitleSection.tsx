@@ -22,7 +22,7 @@ const TitleSection = ({ title }: TitleSectionProps) => {
           {title}
         </p>
       </div>
-      <div>
+      <div className="relative flex flex-col items-center justify-center">
         <Image
           src={'/line.svg'}
           alt="line"
@@ -30,6 +30,15 @@ const TitleSection = ({ title }: TitleSectionProps) => {
           height={30}
           className="xl:w-[200px]"
         ></Image>
+        <div className="absolute top-[-60px]">
+          <Image
+            src={'/giphy.gif'}
+            alt="line"
+            width={100}
+            height={100}
+            className="xl:w-[150px]"
+          ></Image>
+        </div>
       </div>
     </div>
   )

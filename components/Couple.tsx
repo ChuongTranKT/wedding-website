@@ -65,12 +65,12 @@ const CoupleSection = () => {
           )}
         </div>
         <div className="absolute bottom-[-50px] z-30 ">
-          <div className="relative h-[100px] w-[100px] ">
+          <div className="relative h-[100px] w-[100px] rounded-full bg-white ">
             <Image
-              src={'/ic-wedding.jpg'}
+              src={'/wedding-chibi.png'}
               alt="wedding"
               fill
-              className="rounded-full object-cover "
+              className="rounded-full object-contain "
             ></Image>
           </div>
         </div>
