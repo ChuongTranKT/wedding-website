@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false)
 
   return (
-    <section id="navbar" className="flex-between fixed top-[0px] z-50 h-[80px] w-full">
+    <section id="navbar" className="flex-between fixed top-[0px] z-[150] h-[80px] w-full">
       <div className=" absolute top-[5px] z-20 h-[80px] w-full bg-zinc-100 opacity-30"></div>
       <div className="z-40 mt-[5px] grid h-[80px] w-full grid-cols-3 place-content-center gap-0 px-6 py-16">
         <div className="flex-center order-2 col-span-2 place-content-start space-x-2 xl:order-1 xl:col-span-1">

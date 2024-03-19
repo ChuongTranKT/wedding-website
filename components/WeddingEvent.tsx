@@ -26,8 +26,8 @@ const CartEvent = ({ title, endTime, image, time_title }: CartEventPropsType) =>
         <div>
           <p className="text-2xl font-bold uppercase text-[#747BA9]">{title}</p>
         </div>
-        <div>
-          <Image src={image} alt="image" width={378} height={378} className="object-cover"></Image>
+        <div className="relative h-[300px] w-full">
+          <Image src={image} alt="image" fill className="object-cover"></Image>
         </div>
         <div className="flex-center gap-2">
           <Image src={'/icons/clock.png'} alt="clock" width={24} height={24}></Image>
@@ -61,25 +61,25 @@ const WeddingEvent = () => {
           title="Hôn lễ tư gia nữ"
           endTime="2024-09-11T08:30:00"
           time_title="08:30 10/02/2023"
-          image="/wedding-images/image-1.jpg"
+          image="/wedding-images/hon-le.jpg"
         />
         <CartEvent
           title="Tiệc cưới tư gia nữ"
           endTime="2024-09-11T11:00:00"
           time_title="11:00 10/02/2023"
-          image="/wedding-images/image-2.jpg"
+          image="/wedding-images/wedding-party.jpg"
         />
         <CartEvent
           title="Hôn lễ tư gia nam"
           endTime="2024-09-23T08:00:00"
           time_title="08:30 10/02/2023"
-          image="/wedding-images/image-1.jpg"
+          image="/wedding-images/hon-le.jpg"
         />
         <CartEvent
           title="Tiệc cưới tư gia nam"
           endTime="2024-09-23T11:00:00"
           time_title="11:00 10/02/2023"
-          image="/wedding-images/image-2.jpg"
+          image="/wedding-images/wedding-party.jpg"
         />
       </div>
     </section>

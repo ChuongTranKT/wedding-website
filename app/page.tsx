@@ -4,13 +4,12 @@ import CoupleSection from '@/components/Couple'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import SnowfallEffect from '@/components/SnowfallEffect'
-import Time from '@/components/Time'
 import WeddingEvent from '@/components/WeddingEvent'
 import WishesRecord from '@/components/WishesRecord'
 
 export default function Home() {
   return (
-    <main className="relative ">
+    <main className="relative w-full">
       <div className="flex w-full flex-col items-center justify-center gap-10">
         <SnowfallEffect />
         <Navbar />

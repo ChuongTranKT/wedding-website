@@ -3,6 +3,7 @@ export const swiperConfig = {
   grabCursor: false,
   slidesPerView: 1,
   centeredSlides: true,
+  spaceBetween: 0,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,

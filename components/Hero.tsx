@@ -44,8 +44,7 @@ const Hero = () => {
         {...swiperConfig}
         onSlideChange={handleSlideChange}
         ref={swiperRef}
-        className="h-[500px] md:h-[900px]"
-        centeredSlides={true}
+        className="h-[500px] w-[100%] md:h-[900px]"
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
@@ -67,7 +66,7 @@ const Hero = () => {
       >
         {IMAGE_LIST.map((item: any) => (
           <SwiperSlide key={item.url}>
-            <div className="flex-center w-[100%]">
+            <div className="flex-center w-full">
               <Image src={item.url} alt="image-1" fill className="bg-center object-cover"></Image>
               <div className="absolute inset-0 h-[500px] w-full bg-[#000] opacity-[0.55] md:h-[900px]"></div>
             </div>

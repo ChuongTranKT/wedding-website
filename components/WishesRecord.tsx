@@ -44,11 +44,11 @@ const WishesRecord = () => {
             <input
               type="text"
               placeholder="Tên của bạn*"
-              className="placeholder:font-Ephesis w-[80%] border bg-[#f9f9f9] p-2 text-gray-500   placeholder:text-2xl focus:border-[#747BA9] focus:outline-none"
+              className="w-[80%] border bg-[#f9f9f9] p-2 text-gray-500 placeholder:font-Ephesis   placeholder:text-2xl focus:border-[#747BA9] focus:outline-none"
             />
             <textarea
               placeholder="Lời chúc của bạn!"
-              className="placeholder:font-Ephesis h-[130px] w-[80%] resize-none border bg-[#f9f9f9] p-2 text-gray-500  placeholder:text-2xl focus:border-[#747BA9] focus:outline-none "
+              className="h-[130px] w-[80%] resize-none border bg-[#f9f9f9] p-2 text-gray-500 placeholder:font-Ephesis  placeholder:text-2xl focus:border-[#747BA9] focus:outline-none "
             />
             <div
               className="flex-center relative h-[70px] w-[200px] p-2"

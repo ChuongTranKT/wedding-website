@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const WishesList = () => {
   const [currentPage, setCurrentPage] = useState(1)
-  const totalPage = 4
+  const totalPage = 1
 
   const handleChangePage = (pageNumber: number) => {
     setCurrentPage(pageNumber)
@@ -48,11 +48,17 @@ const WishesList = () => {
               className="xl:w-[200px]"
             ></Image>
           </div>
-          <div className="mb-4">
+          <div className="mb-4 min-h-[600px]">
             {Array.from({ length: totalPage }).map((_, index: number) => (
               <div className="flex h-[150px] w-full flex-col gap-5 overflow-hidden" key={index}>
                 <div className="flex flex-col gap-1">
-                  <p className="text-xl font-bold opacity-70">Nguyễn Văn A</p>
+                  <div className="flex items-center justify-start gap-3">
+                    <p className="text-xl font-bold opacity-70">Trần Quốc Văn</p>
+                    <div className="flex items-center justify-start gap-1">
+                      <Image src={'/icons/clock.png'} alt="clock" width={14} height={14}></Image>
+                      <p className="text-sm opacity-70">08:30 10/02/2023</p>
+                    </div>
+                  </div>
                   <p className="max-h-[90px] overflow-hidden text-ellipsis  whitespace-normal indent-6 font-normal leading-6 opacity-50">
                     Một cuộc hôn nhân thành công đòi hỏi phải yêu nhiều lần, và luôn ở cùng một
                     người - Chúc cho hai bạn sẽ có được một cuộc hôn nhân viên mãn, trăm năm hạnh
