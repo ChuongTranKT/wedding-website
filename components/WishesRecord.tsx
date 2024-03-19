@@ -7,7 +7,7 @@ import WishesList from './WishesList'
 const WishesRecord = () => {
   const [isHoverButton, setIsHoverButton] = useState(false)
   return (
-    <section id="whishes-record" className="relative">
+    <section id="wishes-record" className="relative">
       <div className="bg-custom-gradient before-custom flex-center relative z-10 w-full flex-col gap-4 bg-no-repeat px-2 py-60 ">
         <div className="absolute top-[-10px] z-[-1] h-[50%] w-full">
           <Image
@@ -38,7 +38,7 @@ const WishesRecord = () => {
           <div className="absolute bottom-[30px] h-[1px] w-[80%] bg-[#747BA9] opacity-50 md:w-[88%] xl:w-[90%]"></div>
           <div className="absolute right-[25px] h-[86.5%] w-[1px] bg-[#747BA9] opacity-50 xl:h-[86.5%]"></div>
           <div className="absolute top-16">
-            <TitleSection title="Sổ lưu bút" />
+            <TitleSection title="Viết lời chúc" />
           </div>
           <div className="flex-center absolute bottom-[90px] w-[80%] flex-col gap-3 xl:bottom-[60px]">
             <input

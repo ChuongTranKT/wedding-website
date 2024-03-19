@@ -37,7 +37,7 @@ const AudioSection = () => {
       {isPlaying ? (
         <div
           onClick={handlePauseAudio}
-          className="absolute left-10 cursor-pointer transition-all duration-500 ease-in-out  hover:scale-125 md:left-20"
+          className="absolute left-5  cursor-pointer transition-all duration-500 ease-in-out  hover:scale-125 md:left-20"
         >
           <div className="flex-center">
             <div className="absolute z-20">
@@ -49,7 +49,7 @@ const AudioSection = () => {
       ) : (
         <div
           onClick={handlePlayAudio}
-          className="absolute left-10 z-[120] cursor-pointer transition-all duration-500 ease-in-out hover:scale-125  md:left-20"
+          className="hover:scale-15 absolute left-10 z-[120] cursor-pointer transition-all duration-500 ease-in-out  md:left-10"
         >
           <div className="flex-center">
             <div className="absolute z-20">

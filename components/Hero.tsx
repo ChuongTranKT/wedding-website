@@ -2,7 +2,7 @@
 import { swiperConfig } from '@/configs/swiper-hero'
 import { IMAGE_LIST } from '@/constants'
 import Image from 'next/image'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import { Autoplay, EffectCreative } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/swiper-bundle.css'
@@ -11,6 +11,7 @@ import Button from './Button'
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
   const swiperRef = useRef<any>(null)
+
   const handlePrevSlide = () => {
     swiperRef.current.slidePrev()
     addAnimate()
@@ -94,13 +95,13 @@ const Hero = () => {
           <div className="flex flex-col items-center justify-center space-y-8">
             <div className="flex-center animate-slideLeft mt-3 space-x-4" id="person-name">
               <span className="font-Splash text-2xl text-[#fff] md:text-[65px]">Văn Chương</span>
-              <div className="h-[24px] w-[24px] md:h-[38px] md:w-[38px]">
+              <div className="h-[24px] w-[24px] md:h-[70px] md:w-[70px]">
                 <Image
-                  src={'/icons/ic-heart.png'}
+                  src={'/icons/two-heart.gif'}
                   alt="icon heart"
-                  width={38}
-                  height={38}
-                  className="sepia-100 brightness-0 hue-rotate-0 invert saturate-0 filter"
+                  width={100}
+                  height={100}
+                  // className="sepia-100 brightness-0 hue-rotate-0 invert saturate-0 filter"
                 ></Image>
               </div>
               <span className="font-Splash text-2xl text-[#fff] md:text-[65px]">Thúy Hiền</span>
