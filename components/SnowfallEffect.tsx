@@ -7,7 +7,7 @@ const SnowfallEffect = () => {
 
   useEffect(() => {
     const snowImage = document.createElement('img')
-    snowImage.src = '/big-snow.png'
+    snowImage.src = '/icons/big-snow.png'
     const image = [snowImage]
     setImageList(image)
   }, [])

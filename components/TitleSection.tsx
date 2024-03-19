@@ -37,6 +37,7 @@ const TitleSection = ({ title }: TitleSectionProps) => {
             width={100}
             height={100}
             className="xl:w-[150px]"
+            unoptimized={true}
           ></Image>
         </div>
       </div>

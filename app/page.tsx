@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar'
 import SnowfallEffect from '@/components/SnowfallEffect'
 import Time from '@/components/Time'
 import WeddingEvent from '@/components/WeddingEvent'
+import WishesRecord from '@/components/WishesRecord'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <WeddingEvent />
         <AlbumWedding />
       </div>
+      <WishesRecord />
       <AudioSection />
     </main>
   )

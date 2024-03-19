@@ -45,7 +45,7 @@ const CoupleSection = () => {
           onMouseMove={() => setIsHoverImageGroom(true)}
           onMouseLeave={() => setIsHoverImageGroom(false)}
         >
-          <div className='absolute left-[-180px] top-[180px] h-[300px] w-[300px] rotate-180 bg-[url("/flower-medium.svg")] bg-contain bg-right-top bg-no-repeat  xl:top-[310px]'></div>
+          <div className='absolute left-[-180px] top-[180px] h-[300px] w-[300px] rotate-180 bg-[url("/icons/flower-medium.svg")] bg-contain bg-right-top bg-no-repeat  xl:top-[310px]'></div>
           <div className=" relative h-[360px] w-[360px] p-10 xl:h-[456px] xl:w-[456px] ">
             <Image
               src={'/wedding-images/image-1.jpg'}
@@ -61,7 +61,7 @@ const CoupleSection = () => {
           onMouseMove={() => setIsHoverImageBride(true)}
           onMouseLeave={() => setIsHoverImageBride(false)}
         >
-          <div className='absolute right-[20px] top-[211px] z-[-10]  h-[300px] w-[300px] rotate-[70deg] bg-[url("/flower-medium.svg")] bg-contain bg-right-top bg-no-repeat xl:right-[-173px] xl:top-[305px]  xl:block'></div>
+          <div className='absolute right-[20px] top-[211px] z-[-10]  h-[300px] w-[300px] rotate-[70deg] bg-[url("/icons/flower-medium.svg")] bg-contain bg-right-top bg-no-repeat xl:right-[-173px] xl:top-[305px]  xl:block'></div>
           <div className=" relative h-[360px] w-[360px] p-10 xl:h-[456px] xl:w-[456px] ">
             <Image
               src={'/wedding-images/image-2.jpg'}

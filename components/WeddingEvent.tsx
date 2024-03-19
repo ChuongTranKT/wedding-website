@@ -41,7 +41,7 @@ const CartEvent = ({ title, endTime, image, time_title }: CartEventPropsType) =>
           target="_blank"
         >
           <div className="flex-center items-end gap-2">
-            <Image src={'/icons/map.gif'} alt="map" width={32} height={32}></Image>
+            <Image src={'/icons/map.gif'} alt="map" width={32} height={32} unoptimized></Image>
             <p className="text-end font-bold text-[#848892] underline decoration-solid">
               Xem bản đồ
             </p>
